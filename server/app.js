@@ -43,7 +43,7 @@ app.use(
 
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/users", require("./routes/users"));
-
+app.use("/api/items", require("./routes/item"));
 /**
  * Error Handling middlewares
  * https://expressjs.com/en/guide/error-handling.html#:~:text=Express%20comes%20with%20a%20built,of%20the%20middleware%20function%20stack.
